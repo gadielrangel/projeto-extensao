@@ -9,53 +9,53 @@ importers:
   .:
     dependencies:
       '@quasar/extras':
-        specifier: ^1.16.4
+        specifier: ^1.16.11
         version: 1.16.11
       axios:
-        specifier: ^1.2.1
-        version: 1.6.8
+        specifier: ^1.7.1
+        version: 1.7.1
       pinia:
-        specifier: ^2.0.11
+        specifier: ^2.1.7
         version: 2.1.7(typescript@5.3.3)(vue@3.4.27(typescript@5.3.3))
       quasar:
-        specifier: ^2.16.0
+        specifier: ^2.16.4
         version: 2.16.4
       vue:
-        specifier: ^3.4.18
+        specifier: ^3.4.27
         version: 3.4.27(typescript@5.3.3)
       vue-router:
-        specifier: ^4.0.12
+        specifier: ^4.3.2
         version: 4.3.2(vue@3.4.27(typescript@5.3.3))
     devDependencies:
       '@quasar/app-vite':
-        specifier: ^2.0.0-beta.12
+        specifier: 2.0.0-beta.14
         version: 2.0.0-beta.14(@types/node@20.12.12)(eslint@8.57.0)(pinia@2.1.7(typescript@5.3.3)(vue@3.4.27(typescript@5.3.3)))(quasar@2.16.4)(rollup@4.17.2)(terser@5.31.0)(vue-router@4.3.2(vue@3.4.27(typescript@5.3.3)))(vue@3.4.27(typescript@5.3.3))
       '@types/node':
-        specifier: ^20.5.9
+        specifier: ^20.12.12
         version: 20.12.12
       '@typescript-eslint/eslint-plugin':
-        specifier: ^6.6.0
+        specifier: ^6.21.0
         version: 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/parser':
-        specifier: ^6.6.0
+        specifier: ^6.21.0
         version: 6.21.0(eslint@8.57.0)(typescript@5.3.3)
       autoprefixer:
-        specifier: ^10.4.2
+        specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
       eslint-plugin-vue:
-        specifier: ^9.0.0
+        specifier: ^9.26.0
         version: 9.26.0(eslint@8.57.0)
       typescript:
-        specifier: ~5.3.0
+        specifier: ~5.3.3
         version: 5.3.3
       vite-plugin-checker:
         specifier: ^0.6.4
         version: 0.6.4(eslint@8.57.0)(optionator@0.9.4)(typescript@5.3.3)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.2)(terser@5.31.0))(vue-tsc@1.8.27(typescript@5.3.3))
       vue-tsc:
-        specifier: ^1.8.22
+        specifier: ^1.8.27
         version: 1.8.27(typescript@5.3.3)
 
 packages:
@@ -702,8 +702,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.6.8:
-    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+  axios@1.7.1:
+    resolution: {integrity: sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==}
 
   b4a@1.6.6:
     resolution: {integrity: sha512-5Tk1HLk6b6ctmjIkAcU/Ujv/1WqiDl0F0JdRCR80VsOcUlHcu7pWeWRlOqQLHfDEsVx9YH/aif5AG4ehoCtTmg==}
@@ -1008,8 +1008,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.4.774:
-    resolution: {integrity: sha512-132O1XCd7zcTkzS3FgkAzKmnBuNJjK8WjcTtNuoylj7MYbqw5eXehjQ5OK91g0zm7OTKIPeaAG4CPoRfD9M1Mg==}
+  electron-to-chromium@1.4.775:
+    resolution: {integrity: sha512-JpOfl1aNAiZ88wFzjPczTLwYIoPIsij8S9/XQH9lqMpiJOf23kxea68B8wje4f68t4rOIq4Bh+vP4I65njiJBw==}
 
   elementtree@0.1.7:
     resolution: {integrity: sha512-wkgGT6kugeQk/P6VZ/f4T+4HB41BVgNBq5CDIZVbQ02nvTVqAiVTbskxxu3eA/X96lMlfYOwnLQpN2v5E1zDEg==}
@@ -2908,7 +2908,7 @@ snapshots:
       postcss: 8.4.38
       postcss-value-parser: 4.2.0
 
-  axios@1.6.8:
+  axios@1.7.1:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -2968,7 +2968,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001620
-      electron-to-chromium: 1.4.774
+      electron-to-chromium: 1.4.775
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
@@ -3211,7 +3211,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.4.774: {}
+  electron-to-chromium@1.4.775: {}
 
   elementtree@0.1.7:
     dependencies:
